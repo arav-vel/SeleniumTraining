@@ -14,4 +14,10 @@ public class HomePage extends TestNgBase{
 		this.test = test;
 		PageFactory.initElements(driver,this);
 	}
+	
+	
+	public HomePage verifyTitle() {
+		
+		return this;
+	}
 }
