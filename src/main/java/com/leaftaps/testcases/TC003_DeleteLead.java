@@ -1,7 +1,4 @@
-
-
-	
-	package com.leaftaps.testcases;
+package com.leaftaps.testcases;
 
 	import org.testng.annotations.BeforeTest;
 	import org.testng.annotations.Test;
@@ -15,10 +12,12 @@
 		public void setValues() {
 			testCaseName = "TC002_Login";
 			testDescription = "Login testCase 2";
+			System.out.println("Added the Sysout Successfully");
 			nodes = "Login Module";
 			authors = "Aravindraj";
 			category = "Smoke";
 			excelDataFileName = "TC002_Login";
+			System.out.println("");
 		}
 		
 		@Test(dataProvider="fetchData")
