@@ -16,6 +16,7 @@ public class TC004_FindLeads extends TestNgBase {
 		authors = "Samuel Ramesh";
 		category = "Smoke";
 //		excelDataFileName = "TC003_Login";
+		System.out.println("print success");
 	}
 	
 	@Test(dataProvider="fetchData")
@@ -25,5 +26,6 @@ public class TC004_FindLeads extends TestNgBase {
 		.enterPassword(password)
 		.clickLoginButton();
 	}
+	
 
 }
