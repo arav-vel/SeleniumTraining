@@ -12,6 +12,7 @@ public class TC005_EditLeads extends TestNgBase {
 	public void setValues() {
 		testCaseName = "TC005_EditLeads";
 		testDescription = "Editing Leads Testcase 5";
+		System.out.println("Added sysout");
 		nodes = "Edit Leads Module";
 		authors = "Manojkumar";
 		category = "Smoke";
@@ -24,6 +25,8 @@ public class TC005_EditLeads extends TestNgBase {
 		.enterUserName(userName)
 		.enterPassword(password)
 		.clickLoginButton();
+		
+		
 	}
 
 }
