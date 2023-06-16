@@ -11,10 +11,12 @@ package com.leaftaps.testcases;
 		@BeforeTest
 		public void setValues() {
 			testCaseName = "TC002_Login";
+			System.out.println("My latest change");
 			testDescription = "Login testCase 2";
 			System.out.println("Added the Sysout Successfully");
 			nodes = "Login Module";
 			authors = "Aravindraj";
+			
 			category = "Smoke";
 			excelDataFileName = "TC002_Login";
 			System.out.println("");
