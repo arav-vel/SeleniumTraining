@@ -17,6 +17,7 @@ public class TC003_CreateLead extends TestNgBase {
 		category = "Smoke";
 		excelDataFileName = "TC002_Login";
 		System.out.println("Addressing PR review comments");
+		System.out.println("Duplicate");
 	}
 	
 	@Test(dataProvider="fetchData")
