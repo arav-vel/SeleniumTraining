@@ -28,6 +28,9 @@ package com.leaftaps.testcases;
 			.enterUserName(userName)
 			.enterPassword(password)
 			.clickLoginButton();
+//			latest added by Samuel
+			System.err.println("Error :");
+			System.err.println("Error :");
 		}
 
 	}
